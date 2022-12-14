@@ -10,5 +10,13 @@ namespace SampleCircular_A
     {
         int FRONT, REAR, max = 5;
         int[] queue_aray = new int[5];
+        public Queues()
+        {
+            /*Initializing the values of the variables REAR and FRONT to -1 to decide
+             that the queue is initially empty*/
+            FRONT = -1;
+            REAR = -1;
+        }
+        
     }
 }
