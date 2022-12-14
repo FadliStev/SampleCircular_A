@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace SampleCircular_A
 {
-    internal class Program
+    class Queues
     {
-        static void Main(string[] args)
-        {
-        }
+        int FRONT, REAR, max = 5;
+        int[] queue_aray = new int[5];
     }
 }
